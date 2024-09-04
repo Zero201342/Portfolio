@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang cá nhân</title>
+    <link rel="stylesheet" href="bai4_2.css"> 
+</head>
+<body>
+    <div class="header-wrapper">
+        <header class="profile-header">
+            <img src="Selfie.jpg" alt="Ảnh cá nhân" class="profile-image">
+            <h1>Lê Trung Hiếu</h1>
+        
+            <div class="logo-wrapper">
+                <a href="https://www.facebook.com/profile.php?id=100046663641547" target="_blank">
+                    <img src="Facebook.jpg" alt="Facebook" class="logo-circle">
+                </a>
+                <a href="https://www.instagram.com/trunghieu9147/" target="_blank">
+                    <img src="Instagram.jpg" alt="Github" class="logo-circle">
+                </a>
+                <a href="https://www.youtube.com/@two002zero3" target="_blank">
+                    <img src="youtube.png" alt="LinkedIn" class="logo-circle">
+                </a>
+            </div>
+        </header>
+    </div>
+    
+    
+
+    <!-- Navigation bar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#" onclick="showSection('about-me')">Introduce</a></li>
+            <li><a href="#" onclick="showSection('education')">Learning process</a></li>
+            <li><a href="#" onclick="showSection('skills')">Skills</a></li>
+            <li><a href="#" onclick="showSection('work-goals')">Job orientation</a></li>
+            <li><a href="#" onclick="showSection('coursework')">Course exercises</a></li>
+        </ul>
+    </nav>
+
+    <!-- Content container -->
+    <div class="container" id="content-container">
+        <!-- About me section -->
+        <section id="about-me" class="content-section">
+            <div class="card">
+                <div class="card-header">
+                    <img src="gioithieu.jpg" alt="Icon" class="card-icon">
+                    <h2>Giới thiệu (Introduce)</h2>
+                </div>
+                <p>Helloooo everybody!</p>
+                <p><tittle style="color:rgb(30, 0, 255); margin-right: 10px;"> &#10148; </tittle> I’m Le Trung Hieu, a student with a passion for programming.</p>
+                <p><tittle style="color:rgb(30, 0, 255); margin-right: 10px;"> &#10148; </tittle> I’m 19 year old and studying in class of technology D2023A </p>
+                <p><tittle style="color:rgb(30, 0, 255); margin-right: 10px;"> &#10148; </tittle> My hobbies encompass a variety of activities that keep me both mentally and physically engaged. 
+                I enjoy exploring different cuisines and savoring unique culinary experiences. 
+                Additionally, I am currently practicing martial arts with a focus on Kickboxing, which helps improve my discipline and fitness. 
+                Moreover, I have a passion for discovering and learning new programming languages, continuously expanding my knowledge in the ever-evolving field of technology.</p>
+            </div>
+        </section>
+
+        <!-- Education section -->
+        <section id="education" class="content-section">
+            <div class="card">
+                <div class="card-header">
+                    <img src="quatrinhhoctap.png" alt="Icon" class="card-icon">
+                    <h2>Quá trình học tập (Learning process)</h2>
+                </div>
+                <p> <tittle style="color:rgb(30, 0, 255); margin-right: 10px;"> &#10022; </tittle> First of all! I’m currently a student at Hanoi Metropolitan University (HNMU), where Im pursuing my higher education. 
+                    This university provides me with an excellent environment to enhance my knowledge and skills, 
+                    allowing me to dive deeper into various academic disciplines. 
+                    The supportive faculty and resources available have been instrumental in shaping my educational journey..</p>
+                <p><tittle style="color:rgb(30, 0, 255); margin-right: 10px;"> &#10022; </tittle> Secondary! I have chosen Information Technology as my major, studying under the Faculty of Technology. 
+                    This field excites me because it offers endless possibilities for innovation and problem-solving. 
+                    Through hands-on projects and theoretical studies, I am gaining a comprehensive understanding of programming, 
+                    data structures, and emerging technologies, preparing myself for a future in the tech industry.</p>
+                <p><tittle style="color:rgb(30, 0, 255); margin-right: 10px;"> &#10022; </tittle> Last but not least! Personal development is a priority for me, and I am continuously striving to become a better version of myself. 
+                    I take initiative in seeking out opportunities to challenge my limits, whether through additional courses, workshops, or practical experiences. 
+                    By constantly learning and adapting, I aim to equip myself with the skills and knowledge necessary to excel in my chosen field.</p>
+            </div>
+        </section>
+
+        <!-- Skills section -->
+        <section id="skills" class="content-section">
+            <div class="card">
+                <div class="card-header">
+                    <img src="kynang.jpg" alt="Icon" class="card-icon">
+                    <h2>Kỹ năng (Skills)</h2>
+                </div>
+                <ul>
+                    <li>I have foundational knowledge of C and beginner-level proficiency in C++. 
+                        These programming languages have given me a strong base in understanding programming logic and structure, 
+                        which I find useful in solving computational problems effectively.</li>
+                    <li>Additionally, I possess basic skills in HTML and CSS, which allow me to design and structure web pages. 
+                        Along with that, I have some exposure to JavaScript, enabling me to add dynamic elements to web interfaces, 
+                        making them more interactive and user-friendly.</li>
+                    <li>These skills have equipped me with the ability to approach coding challenges with confidence. 
+                        The combination of these programming languages helps me build a strong foundation in both software development and web design, 
+                        enhancing my versatility in handling diverse technical tasks.</li>
+                </ul>
+            </div>
+        </section>
+
+       
+        <section id="work-goals" class="content-section">
+            <div class="card">
+                <div class="card-header">
+                    <img src="dinhhuongCV.jpg" alt="Icon" class="card-icon">
+                    <h2>Định hướng công việc (Job orientation)</h2>
+                </div>
+                <p><tittle style="color:rgb(30, 0, 255); margin-right: 10px;"> &#10004; </tittle> My long-term career aspiration is to become a highly skilled and proficient software developer. 
+                    I am deeply passionate about leveraging technology to solve complex problems and drive innovation in the tech industry. 
+                    As a programmer, I aim to continuously enhance my coding abilities and contribute to meaningful projects that have a positive impact on society.</p>
+                <p><tittle style="color:rgb(30, 0, 255); margin-right: 10px;"> &#10004; </tittle> I am currently working towards developing my own application and website, with the goal of establishing a personal portfolio that showcases my technical expertise. 
+                    This endeavor allows me to apply the theoretical knowledge I’ve acquired, while simultaneously honing my practical skills in both front-end and back-end development. 
+                    I am dedicated to creating functional, user-friendly, and innovative digital solutions.</p>
+            </div>
+        </section>
+
+        
+        <section id="coursework" class="content-section">
+            <div class="card">
+                <div class="card-header">
+                    <img src="cacBTHP.jpg" alt="Icon" class="card-icon">
+                    <h2>Các BTHP (Course exercises)</h2>
+                </div>
+                <p>I have completed many course assignments such as: </p>
+                <ul>
+                    <li>Exercise session 2: <a href="https://zero201342.github.io/Nopbaibuoi2/Nopbaibuoi2.html">Click here</a></li>
+                    <li>Exercise session 3: <a href="https://zero201342.github.io/NopBTHP1-3/BTVN.html">Click here</a></li>
+                    
+            </div>
+        </section>
+    </div>
+
+  
+    <footer>
+        <p>&copy; Bản quyền-ed by Híu Trung</p>
+    </footer>
+
+   
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        function showSection(sectionId) {
+            // Ẩn tất cả các thẻ
+            const sections = document.querySelectorAll('.content-section .card');
+            sections.forEach(section => {
+                section.style.display = 'none';
+            });
+
+            // Hiển thị thẻ được chọn với hiệu ứng mượt
+            const selectedSection = document.querySelector(`#${sectionId} .card`);
+            if (selectedSection) {
+                selectedSection.style.display = 'block';
+            }
+        }
+
+        // Gán sự kiện click cho các liên kết
+        document.querySelectorAll('.navbar a').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const sectionId = this.getAttribute('onclick').match(/'([^']+)'/)[1];
+                showSection(sectionId);
+            });
+        });
+
+        // Mặc định hiển thị phần đầu tiên
+        showSection('about-me');
+
+        // Gán sự kiện click cho các logo
+        document.querySelectorAll('.logo-circle').forEach(logo => {
+            logo.addEventListener('click', function(event) {
+                // Thực hiện hành động khi click vào logo, ví dụ: theo dõi click
+                console.log('Logo clicked:', this.alt);
+
+                //  Thêm hành động cụ thể trước khi điều hướng (ví dụ: xác nhận trước khi mở trang)
+                const shouldOpen = confirm('Bạn có muốn mở liên kết này không?');
+                if (!shouldOpen) {
+                    event.preventDefault(); // Ngăn chặn mở trang nếu người dùng chọn "Hủy"
+                }
+            });
+        });
+    });
+</script>
+
+</body>
+</html>
